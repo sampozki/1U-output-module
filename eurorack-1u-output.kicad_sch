@@ -683,7 +683,475 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_4ms_Jack:3.5mm_Mono_Switched_sm"
+		(symbol "PCM_4ms_Connector:Eurorack_Power_10pin_Unshrouded"
+			(pin_names
+				(offset 0.0254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Eurorack_Power_10pin_Unshrouded"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "4ms_Connector:Pins_2x05_2.54mm_TH_Europower"
+				(at 2.54 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "HEADER 2x5 MALE PINS 0.100” 180deg"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Specifications" "HEADER 2x5 MALE PINS 0.100” 180deg"
+				(at 0 -21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "TAD"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "1-1002FBV0T"
+				(at 0 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Eurorack_Power_10pin_Unshrouded"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin_Header_Straight_2X* Pin_Header_Angled_2X* Socket_Strip_Straight_2X* Socket_Strip_Angled_2X* IDC_Header_Straight_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Eurorack_Power_10pin_Unshrouded_0_0"
+				(text "STRIPE"
+					(at -6.35 -11.43 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(text "+12"
+					(at 0 1.27 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(text "GND"
+					(at 0 -1.27 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(text "GND"
+					(at 0 -3.81 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(text "GND"
+					(at 0 -6.35 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(text "-12"
+					(at 0 -8.89 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(symbol "Eurorack_Power_10pin_Unshrouded_0_1"
+				(polyline
+					(pts
+						(xy -3.81 -11.43) (xy 3.81 -11.43) (xy 1.27 -11.43)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 1.397)
+					(end -1.27 1.143)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 -1.143)
+					(end -1.27 -1.397)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 -3.683)
+					(end -1.27 -3.937)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 -6.223)
+					(end -1.27 -6.477)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 -8.763)
+					(end -1.27 -9.017)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 -10.16)
+					(end 2.54 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 1.27 1.397)
+					(end 2.54 1.143)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 -1.143)
+					(end 2.54 -1.397)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 -3.683)
+					(end 2.54 -3.937)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 -6.223)
+					(end 2.54 -6.477)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 -8.763)
+					(end 2.54 -9.017)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Eurorack_Power_10pin_Unshrouded_1_1"
+				(pin passive line
+					(at -6.35 1.27 0)
+					(length 3.81)
+					(name "+12V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 -1.27 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 -3.81 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 -6.35 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 -8.89 0)
+					(length 3.81)
+					(name "-12V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 1.27 180)
+					(length 3.81)
+					(name "+12V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -1.27 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -3.81 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -6.35 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -8.89 180)
+					(length 3.81)
+					(name "-12V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "aa-sampozki:3.5mm_Mono_Switched_sm"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -699,15 +1167,15 @@
 					)
 				)
 			)
-			(property "Value" "3.5mm_Mono_Switched_sm"
-				(at 6.35 6.604 0)
+			(property "Value" "thonkiconn"
+				(at -5.842 6.604 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Footprint" "4ms_Jack:EighthInch_PJ398SM"
+			(property "Footprint" "AudioJacks:Jack_3.5mm_QingPu_WQP-PJ301M-12_Vertical"
 				(at -0.127 -14.097 0)
 				(effects
 					(font
@@ -716,16 +1184,17 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at -1.27 1.27 0)
+			(property "Datasheet" "https://www.thonk.co.uk/wp-content/uploads/2014/02/Thonkiconn_Jack_Datasheet.pdf"
+				(at 3.302 14.732 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
+					(hide yes)
 				)
 			)
 			(property "Description" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
-				(at 0 0 0)
+				(at 4.572 11.684 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -743,7 +1212,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Wenzhou QingPu Electronics Co"
+			(property "Manufacturer" "Thonk"
 				(at -2.54 -9.398 0)
 				(effects
 					(font
@@ -753,7 +1222,7 @@
 					(hide yes)
 				)
 			)
-			(property "Part Number" "WQP-WQP518MA"
+			(property "Part Number" "PJ301M-12"
 				(at -2.54 -10.922 0)
 				(effects
 					(font
@@ -763,7 +1232,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "PJ398SM PJ301SM WQP518MA"
+			(property "ki_keywords" "PJ398SM PJ301SM WQP518MA thonkiconn"
 				(at 0 0 0)
 				(effects
 					(font
@@ -798,7 +1267,33 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 1.27) (xy 0 1.27)
+						(xy 1.27 1.27) (xy 3.81 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "3.5mm_Mono_Switched_sm_0_1"
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 0.6143 3.798) (xy 1.9922 3.8049) (xy 1.2819 5.0304) (xy 1.27 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 3.81)
 					)
 					(stroke
 						(width 0)
@@ -820,25 +1315,7 @@
 							)
 						)
 					)
-					(number "2"
-						(effects
-							(font
-								(size 0.889 0.889)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 1.27 180)
-					(length 1.27)
-					(name "SW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 0.889 0.889)
@@ -856,7 +1333,25 @@
 							)
 						)
 					)
-					(number "1"
+					(number "3"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 1.27 180)
+					(length 1.27)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 0.889 0.889)
@@ -969,11 +1464,33 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "25V?"
+		(exclude_from_sim no)
+		(at 91.44 59.944 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cf6d0636-6fdf-4157-a682-13c6311fad9c")
+	)
 	(junction
 		(at 82.55 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "193c2958-2f25-4e50-849a-36e742a1baae")
+	)
+	(junction
+		(at 140.97 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3189107c-8d7e-4bd9-8122-96211b711426")
+	)
+	(junction
+		(at 156.21 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "404eef35-2363-4ede-88a4-6fe2d8d0cbac")
 	)
 	(junction
 		(at 67.31 38.1)
@@ -988,6 +1505,12 @@
 		(uuid "7cd05f51-ec82-4faf-a106-8f6ae0f6831b")
 	)
 	(junction
+		(at 48.26 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "852ea80b-c995-41d1-a751-2571073f19a6")
+	)
+	(junction
 		(at 67.31 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1000,16 +1523,16 @@
 		(uuid "9c9013ec-db5f-448b-8288-90a46344f1cd")
 	)
 	(junction
-		(at 48.26 52.07)
+		(at 140.97 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a81445f7-c4a4-46ea-80f2-37d97cd21cf5")
+		(uuid "b0001984-ca87-47f4-8d90-92175121c237")
 	)
 	(junction
-		(at 67.31 105.41)
+		(at 140.97 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b96765b7-24ad-4749-a583-8db22f33f39a")
+		(uuid "e3e55094-63b2-48e0-9f00-caef575f5320")
 	)
 	(junction
 		(at 82.55 54.61)
@@ -1018,10 +1541,32 @@
 		(uuid "f107defc-74d8-4ada-a73d-77cecf3e0365")
 	)
 	(junction
+		(at 67.31 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f25fe8a4-aba4-4f13-a50a-3f132252ac07")
+	)
+	(junction
 		(at 82.55 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f460708e-124e-4af4-a6db-ee7b8b1115ef")
+	)
+	(junction
+		(at 156.21 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff9e3c99-dd78-4770-b488-e79ddad7a076")
+	)
+	(wire
+		(pts
+			(xy 156.21 85.09) (xy 156.21 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e259c1e-a7ec-466e-9ac7-6ef230a92c0d")
 	)
 	(wire
 		(pts
@@ -1035,13 +1580,13 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 105.41) (xy 67.31 105.41)
+			(xy 138.43 100.33) (xy 140.97 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "13275f3f-bd6f-4c76-b610-908e9d2a45b1")
+		(uuid "12bef026-6a76-4dae-9cbc-39243cd41b08")
 	)
 	(wire
 		(pts
@@ -1075,6 +1620,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 48.26) (xy 156.21 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22d2cba4-f484-401b-b00a-b514c2d2cf9f")
+	)
+	(wire
+		(pts
 			(xy 78.74 30.48) (xy 82.55 30.48)
 		)
 		(stroke
@@ -1082,6 +1637,16 @@
 			(type default)
 		)
 		(uuid "252657f2-cc9e-4685-ac70-ca34cc770f22")
+	)
+	(wire
+		(pts
+			(xy 138.43 58.42) (xy 140.97 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fc31f57-e991-4920-b5ee-a57b8266081b")
 	)
 	(wire
 		(pts
@@ -1095,6 +1660,26 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 48.26) (xy 140.97 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36f7fc4e-a4e7-40fc-977b-a2996c65aa68")
+	)
+	(wire
+		(pts
+			(xy 140.97 85.09) (xy 140.97 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40c5193e-f128-4221-a988-2cdaf58539fc")
+	)
+	(wire
+		(pts
 			(xy 78.74 83.82) (xy 82.55 83.82)
 		)
 		(stroke
@@ -1105,13 +1690,43 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 109.22) (xy 48.26 109.22)
+			(xy 156.21 85.09) (xy 156.21 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5ab8964a-1d3f-4399-8b6a-b68fe020f05f")
+		(uuid "48724455-437c-4ce5-8d2e-d0832e578409")
+	)
+	(wire
+		(pts
+			(xy 140.97 63.5) (xy 140.97 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48c2b82e-30ef-4e4c-94bc-a52a7866b136")
+	)
+	(wire
+		(pts
+			(xy 140.97 48.26) (xy 140.97 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50e0025b-8f47-4bb2-a924-8a43f71e9135")
+	)
+	(wire
+		(pts
+			(xy 124.46 58.42) (xy 130.81 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "587f4c89-199f-4c68-8131-ad535d3911f8")
 	)
 	(wire
 		(pts
@@ -1132,6 +1747,26 @@
 			(type default)
 		)
 		(uuid "68942182-8bfa-4f83-8a0e-6f53359fa7ac")
+	)
+	(wire
+		(pts
+			(xy 35.56 109.22) (xy 48.26 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69e261a0-a77e-4757-8846-98955dace56c")
+	)
+	(wire
+		(pts
+			(xy 140.97 48.26) (xy 144.78 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d11726c-8dad-40b3-b04f-a370091958d8")
 	)
 	(wire
 		(pts
@@ -1165,6 +1800,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 48.26) (xy 156.21 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dc1dfe1-fc87-417b-9679-70fd6042ec77")
+	)
+	(wire
+		(pts
 			(xy 82.55 38.1) (xy 82.55 30.48)
 		)
 		(stroke
@@ -1175,6 +1820,46 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 48.26) (xy 156.21 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84774493-951c-444d-991f-28b21a1a1686")
+	)
+	(wire
+		(pts
+			(xy 140.97 40.64) (xy 144.78 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86d73c88-59aa-48ad-87b1-bbde4d760e78")
+	)
+	(wire
+		(pts
+			(xy 35.56 52.07) (xy 48.26 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8eecd456-835f-4040-bb15-da6659b93fb6")
+	)
+	(wire
+		(pts
+			(xy 152.4 77.47) (xy 156.21 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cbf68c7-4688-4adf-8043-ff08c1609463")
+	)
+	(wire
+		(pts
 			(xy 67.31 38.1) (xy 71.12 38.1)
 		)
 		(stroke
@@ -1182,6 +1867,26 @@
 			(type default)
 		)
 		(uuid "9e206894-66e5-46a9-a645-f60b283e531f")
+	)
+	(wire
+		(pts
+			(xy 140.97 85.09) (xy 140.97 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e786f54-45fe-4c45-8d42-e834a997214e")
+	)
+	(wire
+		(pts
+			(xy 140.97 77.47) (xy 144.78 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1b96851-1cee-44d0-b2de-2840567e33c8")
 	)
 	(wire
 		(pts
@@ -1205,6 +1910,26 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 85.09) (xy 156.21 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b257a86f-ff62-49fb-a6ce-a631cc9ca4aa")
+	)
+	(wire
+		(pts
+			(xy 35.56 105.41) (xy 67.31 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2dc6f31-f4ba-4185-bfee-0e7460349b75")
+	)
+	(wire
+		(pts
 			(xy 67.31 57.15) (xy 67.31 63.5)
 		)
 		(stroke
@@ -1225,13 +1950,13 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 52.07) (xy 48.26 52.07)
+			(xy 152.4 40.64) (xy 156.21 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bd485c06-22f0-4e93-9720-86c54230244c")
+		(uuid "be21f950-8a44-4055-8d2b-05d8aeb07991")
 	)
 	(wire
 		(pts
@@ -1242,6 +1967,16 @@
 			(type default)
 		)
 		(uuid "c6dc5995-0f3f-4059-bfa3-1c935c11a91d")
+	)
+	(wire
+		(pts
+			(xy 140.97 85.09) (xy 144.78 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca985d49-ba76-49e4-b761-52413c86cb8e")
 	)
 	(wire
 		(pts
@@ -1275,6 +2010,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 100.33) (xy 130.81 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4fb7877-121b-4c43-ae29-44d5347807bf")
+	)
+	(wire
+		(pts
 			(xy 48.26 109.22) (xy 48.26 52.07)
 		)
 		(stroke
@@ -1292,6 +2037,94 @@
 			(type default)
 		)
 		(uuid "e824536b-cda0-4c21-867d-bce1f174f876")
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL072")
+		(at 66.04 161.29 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "007b7825-cf44-444c-9f47-bf60a6a4a381")
+		(property "Reference" "U2"
+			(at 64.77 160.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TL072"
+			(at 64.77 162.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 66.04 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 66.04 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+			(at 66.04 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "46cd7eb9-5637-4f2b-8a23-90a6e276bc7a")
+		)
+		(pin "8"
+			(uuid "5b54981d-bafa-44d5-8e67-892c2417b211")
+		)
+		(pin "1"
+			(uuid "a9750370-a501-4fdb-975e-b80ec8ee540f")
+		)
+		(pin "5"
+			(uuid "739d3ac6-69a8-41f8-a220-d89cf096b593")
+		)
+		(pin "7"
+			(uuid "0b172d01-c76b-4cb5-95c3-1f2bf00f8243")
+		)
+		(pin "4"
+			(uuid "2823a2b0-ebd9-499e-a73c-1ea3a6dc5980")
+		)
+		(pin "2"
+			(uuid "84bf4f76-5f41-49bc-aaab-dab77367c07c")
+		)
+		(pin "3"
+			(uuid "e70515e2-0439-4fd9-95bc-275478954c62")
+		)
+		(instances
+			(project "eurorack-1u-output"
+				(path "/eda6eee1-8552-4722-99e7-90d6051a3c96"
+					(reference "U2")
+					(unit 3)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -1428,6 +2261,107 @@
 		)
 	)
 	(symbol
+		(lib_id "aa-sampozki:3.5mm_Mono_Switched_sm")
+		(at 30.48 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b219c9f-4eb4-4104-b4f4-162933a2bbfb")
+		(property "Reference" "IN_R1"
+			(at 29.21 100.33 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "thonkiconn"
+			(at 29.21 102.87 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "AudioJacks:Jack_3.5mm_QingPu_WQP-PJ301M-12_Vertical"
+			(at 30.353 124.587 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.thonk.co.uk/wp-content/uploads/2014/02/Thonkiconn_Jack_Datasheet.pdf"
+			(at 33.782 95.758 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
+			(at 35.052 98.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
+			(at 27.94 118.364 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Thonk"
+			(at 27.94 119.888 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "PJ301M-12"
+			(at 27.94 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0b9ca9e1-5cea-4ddc-9aa9-d115f5279da0")
+		)
+		(pin "2"
+			(uuid "aa4d7e3f-db2a-4dbf-9e0a-38f3f5dba44f")
+		)
+		(pin "1"
+			(uuid "3299a3e7-ad10-4612-97c5-58c4f335da66")
+		)
+		(instances
+			(project ""
+				(path "/eda6eee1-8552-4722-99e7-90d6051a3c96"
+					(reference "IN_R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 74.93 30.48 90)
 		(unit 1)
@@ -1495,50 +2429,109 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_4ms_Jack:3.5mm_Mono_Switched_sm")
-		(at 30.48 57.15 0)
+		(lib_id "Device:R")
+		(at 134.62 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "185c4a19-7505-4229-a430-095c96b9b685")
+		(property "Reference" "R7"
+			(at 132.334 102.616 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 136.144 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 134.62 102.108 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 134.62 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8eb8a33a-42da-420e-adb7-193a210cbfea")
+		)
+		(pin "1"
+			(uuid "2dcdb884-7c25-4537-ac35-381d5837a667")
+		)
+		(instances
+			(project "eurorack-1u-output"
+				(path "/eda6eee1-8552-4722-99e7-90d6051a3c96"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Connector:Eurorack_Power_10pin_Unshrouded")
+		(at 95.25 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2f2beb69-0294-4bfc-92cc-11283babdd32")
+		(uuid "274a33cb-8bc6-4de5-b679-3ba14ccdb99e")
 		(property "Reference" "J1"
-			(at 29.21 46.99 0)
+			(at 93.1433 149.86 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "3.5mm_Mono_Switched"
-			(at 29.21 49.53 0)
+		(property "Value" "Eurorack_Power_10pin_Unshrouded"
+			(at 93.1433 152.4 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "4ms_Jack:EighthInch_PJ398SM"
-			(at 30.353 71.247 0)
+		(property "Footprint" "PCM_4ms_Connector:Pins_2x05_2.54mm_TH_Europower"
+			(at 97.79 171.45 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 55.88 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
-			(at 30.48 57.15 0)
+			(at 95.25 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1546,18 +2539,17 @@
 				(hide yes)
 			)
 		)
-		(property "Specifications" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
-			(at 27.94 65.024 0)
+		(property "Description" "HEADER 2x5 MALE PINS 0.100” 180deg"
+			(at 95.25 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Wenzhou QingPu Electronics Co"
-			(at 27.94 66.548 0)
+		(property "Specifications" "HEADER 2x5 MALE PINS 0.100” 180deg"
+			(at 95.25 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1566,8 +2558,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "WQP-WQP518MA"
-			(at 27.94 68.072 0)
+		(property "Manufacturer" "TAD"
+			(at 95.25 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1575,15 +2567,46 @@
 				(justify left)
 				(hide yes)
 			)
+		)
+		(property "Part Number" "1-1002FBV0T"
+			(at 95.25 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "fe1e93de-a7d5-4cac-b7e9-2169ea8e8dd9")
 		)
 		(pin "2"
-			(uuid "ec7b2817-467f-42d0-8f74-23a9f29538d0")
+			(uuid "ea3f416f-5bd2-413e-ad38-263bc06ce93d")
+		)
+		(pin "5"
+			(uuid "7289cc35-5c42-451b-a1e1-b9a075270e43")
+		)
+		(pin "10"
+			(uuid "da52b385-6de5-4b33-ac58-7f44ae490575")
 		)
 		(pin "1"
-			(uuid "7c607cc3-5e0e-465c-9a1d-ac16048cfdaa")
+			(uuid "c57d2d6c-8217-4b20-b9a2-50dff6d9c9ad")
 		)
 		(pin "3"
-			(uuid "867099ff-4942-4aa8-b0fc-c42dee76acbc")
+			(uuid "55ff242b-8342-4d9c-bf25-d64772d2a209")
+		)
+		(pin "9"
+			(uuid "2330d5fe-a53b-46be-89d2-d7f5a8358c4c")
+		)
+		(pin "4"
+			(uuid "1bead742-f50a-4727-8389-c6a5dd1a5273")
+		)
+		(pin "6"
+			(uuid "95a27153-24ea-4c5e-8c1b-a2827735c28e")
+		)
+		(pin "8"
+			(uuid "607231ba-f052-4564-b929-51ede1e35827")
 		)
 		(instances
 			(project ""
@@ -1619,7 +2642,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "aa_sampozki:CAP_EEEFK1E100R"
 			(at 95.25 106.9848 0)
 			(effects
 				(font
@@ -1656,6 +2679,241 @@
 			(project "eurorack-1u-output"
 				(path "/eda6eee1-8552-4722-99e7-90d6051a3c96"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 134.62 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3d444001-e2cb-40a8-94cb-291e7640bccd")
+		(property "Reference" "R5"
+			(at 132.334 60.706 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 136.144 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 134.62 60.198 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 134.62 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2e6325fc-5108-45df-8a19-9b5c036107cf")
+		)
+		(pin "1"
+			(uuid "16fa3aa1-2ac9-422e-9507-8f4468304279")
+		)
+		(instances
+			(project "eurorack-1u-output"
+				(path "/eda6eee1-8552-4722-99e7-90d6051a3c96"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "aa-sampozki:3.5mm_Mono_Switched_sm")
+		(at 30.48 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "431c5851-057a-4e7f-9d70-fef8f4bb9af4")
+		(property "Reference" "IN_L1"
+			(at 29.21 46.99 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "thonkiconn"
+			(at 29.21 49.53 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "AudioJacks:Jack_3.5mm_QingPu_WQP-PJ301M-12_Vertical"
+			(at 30.353 71.247 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.thonk.co.uk/wp-content/uploads/2014/02/Thonkiconn_Jack_Datasheet.pdf"
+			(at 33.782 42.418 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
+			(at 35.052 45.466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
+			(at 27.94 65.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Thonk"
+			(at 27.94 66.548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "PJ301M-12"
+			(at 27.94 68.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "41869ea7-a272-4a51-b083-ba2b0f660b0f")
+		)
+		(pin "1"
+			(uuid "c903f9b9-c054-47cb-b0eb-af64b8a29c34")
+		)
+		(pin "2"
+			(uuid "e17d3753-d576-4968-b5b1-ff5009b71ea3")
+		)
+		(instances
+			(project ""
+				(path "/eda6eee1-8552-4722-99e7-90d6051a3c96"
+					(reference "IN_L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 148.59 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43d8685a-9cba-4c99-8728-96ebf146ef3b")
+		(property "Reference" "R4"
+			(at 146.304 50.546 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 150.114 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 148.59 50.038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 148.59 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dd76a050-ca75-4dbc-864c-0b8e95f7de85")
+		)
+		(pin "1"
+			(uuid "cffd852b-1c91-4e5a-8e5a-19528da26ed0")
+		)
+		(instances
+			(project "eurorack-1u-output"
+				(path "/eda6eee1-8552-4722-99e7-90d6051a3c96"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -1795,50 +3053,32 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_4ms_Jack:3.5mm_Mono_Switched_sm")
-		(at 30.48 110.49 0)
+		(lib_id "Device:R")
+		(at 148.59 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "62115e1b-f016-42d9-9251-b05c86e82f21")
-		(property "Reference" "J2"
-			(at 29.21 100.33 0)
+		(uuid "4b6fb56e-9a5c-4695-a813-4c646c98719f")
+		(property "Reference" "R6"
+			(at 146.304 87.376 90)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "3.5mm_Mono_Switched"
-			(at 29.21 102.87 0)
+		(property "Value" "10k"
+			(at 150.114 87.63 90)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "4ms_Jack:EighthInch_PJ398SM"
-			(at 30.353 124.587 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 109.22 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
-			(at 30.48 110.49 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 148.59 86.868 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1846,49 +3086,187 @@
 				(hide yes)
 			)
 		)
-		(property "Specifications" "Audio 3.5mm Jack, mono, switched, PC-pin Vertical"
-			(at 27.94 118.364 0)
+		(property "Datasheet" "~"
+			(at 148.59 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Wenzhou QingPu Electronics Co"
-			(at 27.94 119.888 0)
+		(property "Description" "Resistor"
+			(at 148.59 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "WQP-WQP518MA"
-			(at 27.94 121.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
 		(pin "2"
-			(uuid "6921460c-3652-4569-81a3-d3f3406061eb")
+			(uuid "3210f39b-a133-40ee-8b4e-a6d0ba7c7476")
 		)
 		(pin "1"
-			(uuid "a7d7b0c2-8614-41ff-b75b-82d29ac174da")
-		)
-		(pin "3"
-			(uuid "4703cee1-64ea-4dc8-9272-e1068806cfe3")
+			(uuid "d1753436-d5b3-4028-ac80-2265969b9248")
 		)
 		(instances
 			(project "eurorack-1u-output"
 				(path "/eda6eee1-8552-4722-99e7-90d6051a3c96"
-					(reference "J2")
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 148.59 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6efa11e6-a301-4b63-b0f9-6c0748919f74")
+		(property "Reference" "C6"
+			(at 146.05 72.898 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10pF"
+			(at 150.368 73.406 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 152.4 76.5048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 148.59 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09145169-9958-40ed-a7fd-83b32bfb0a03")
+		)
+		(pin "2"
+			(uuid "8fd55662-2567-4ee2-ad53-cd7aee6c974b")
+		)
+		(instances
+			(project "eurorack-1u-output"
+				(path "/eda6eee1-8552-4722-99e7-90d6051a3c96"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL072")
+		(at 148.59 60.96 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7fb5d04f-2b99-4b7a-b55f-2fbb7bff7dda")
+		(property "Reference" "U2"
+			(at 148.59 56.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL072"
+			(at 148.59 53.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 148.59 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 148.59 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+			(at 148.59 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "0827ef2c-b74a-43e1-abe7-1b1b9b7f01bb")
+		)
+		(pin "8"
+			(uuid "1ae050e0-802f-4a05-a4aa-50da8b2a605b")
+		)
+		(pin "1"
+			(uuid "ac3ca427-33cc-4a2d-a32d-a32cc51e4588")
+		)
+		(pin "6"
+			(uuid "e9cf93d5-0fb9-4da2-b6f4-fa9d826e24e9")
+		)
+		(pin "2"
+			(uuid "58106d67-88a1-4cc1-b62f-5135cc4c02dd")
+		)
+		(pin "7"
+			(uuid "09752a09-09f5-41f6-91be-370a5e2d2251")
+		)
+		(pin "3"
+			(uuid "37aa82f0-7f52-4f1c-86dc-c69f9f8e9c0d")
+		)
+		(pin "4"
+			(uuid "26071fcb-edcc-4f38-95be-9ae31be5e4c0")
+		)
+		(instances
+			(project "eurorack-1u-output"
+				(path "/eda6eee1-8552-4722-99e7-90d6051a3c96"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -1961,6 +3339,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 148.59 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "85a65950-64d5-4207-9e01-389684a22127")
+		(property "Reference" "C5"
+			(at 146.05 36.068 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10pF"
+			(at 150.368 36.576 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 152.4 39.6748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 148.59 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c0cc299-0c1a-42f9-811d-6f9d88163596")
+		)
+		(pin "2"
+			(uuid "b5306f06-4500-4c26-9eb6-561811853d64")
+		)
+		(instances
+			(project "eurorack-1u-output"
+				(path "/eda6eee1-8552-4722-99e7-90d6051a3c96"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:TL072")
 		(at 74.93 107.95 0)
 		(mirror x)
@@ -1978,7 +3423,7 @@
 				)
 			)
 		)
-		(property "Value" "TL072P"
+		(property "Value" "TL072"
 			(at 74.422 97.79 0)
 			(effects
 				(font
@@ -1986,7 +3431,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 74.93 107.95 0)
 			(effects
 				(font
@@ -2115,6 +3560,92 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL072")
+		(at 148.59 97.79 0)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6190c11-c3c4-4263-bde6-cf473065d0d7")
+		(property "Reference" "U2"
+			(at 148.082 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL072"
+			(at 148.082 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 148.59 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 148.59 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+			(at 148.59 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "dd88595b-b5cc-4631-94d8-7cf9314b3a8c")
+		)
+		(pin "8"
+			(uuid "668d9a63-215b-48a9-8472-d7c3e82fb8be")
+		)
+		(pin "4"
+			(uuid "6df2f57d-d218-4754-a56a-ef93136e04aa")
+		)
+		(pin "3"
+			(uuid "8c0e4682-3ca3-47b2-a33f-1db856cca27e")
+		)
+		(pin "2"
+			(uuid "0d034566-ed7f-4e43-bd24-c600f3f4b3e5")
+		)
+		(pin "1"
+			(uuid "642dc426-7a9b-4d35-90da-2281eb4d9aab")
+		)
+		(pin "6"
+			(uuid "bba5a119-fd61-4dac-ad67-98e2c25955d5")
+		)
+		(pin "7"
+			(uuid "951f40fd-67ec-42ec-9213-520d07dd0414")
+		)
+		(instances
+			(project "eurorack-1u-output"
+				(path "/eda6eee1-8552-4722-99e7-90d6051a3c96"
+					(reference "U2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL072")
 		(at 54.61 161.29 0)
 		(unit 3)
 		(exclude_from_sim no)
@@ -2132,7 +3663,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TL072P"
+		(property "Value" "TL072"
 			(at 53.34 162.5599 0)
 			(effects
 				(font
@@ -2141,7 +3672,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 54.61 161.29 0)
 			(effects
 				(font
@@ -2219,7 +3750,7 @@
 				)
 			)
 		)
-		(property "Value" "TL072P"
+		(property "Value" "TL072"
 			(at 74.93 47.244 0)
 			(effects
 				(font
@@ -2227,7 +3758,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 74.93 54.61 0)
 			(effects
 				(font
@@ -2354,6 +3885,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 140.97 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa54c456-b800-452e-92e9-3ca9682958a5")
+		(property "Reference" "#PWR04"
+			(at 140.97 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 140.97 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5900821-92c5-45e9-933d-6608b2d7c8c7")
+		)
+		(instances
+			(project "eurorack-1u-output"
+				(path "/eda6eee1-8552-4722-99e7-90d6051a3c96"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 91.44 54.61 90)
 		(unit 1)
@@ -2378,7 +3975,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "aa_sampozki:CAP_EEEFK1E100R"
 			(at 95.25 53.6448 0)
 			(effects
 				(font
@@ -2398,6 +3995,15 @@
 		)
 		(property "Description" "Polarized capacitor"
 			(at 91.44 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "EEE-FK1E100R"
+			(at 91.44 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
